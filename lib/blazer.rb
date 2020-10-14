@@ -1,3 +1,8 @@
+# DEBUGGING
+STDERR.puts "+++ blazer.rb"
+STDERR.puts Kernel.caller.join("\n")
+STDERR.puts "==="
+
 # dependencies
 require "csv"
 require "yaml"
